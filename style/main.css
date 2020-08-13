@@ -1,3 +1,58 @@
 body {
-    background: red;
+    background: #E5E5E5;
+    color: #202336;
+}
+
+body,
+html {
+    margin: 0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+.button {
+    background: #FB8F1D;
+    color: #fff;
+    border-radius: 8px;
+    padding: 26px 90px;
+}
+
+h1 {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+}
+
+h2 {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+    color: #000000;
+}
+
+p {
+    font-family: Muli;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    color: #7D7987;
 }
