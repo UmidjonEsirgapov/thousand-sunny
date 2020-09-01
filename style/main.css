@@ -237,7 +237,7 @@ select {
   font-weight: 300;
   font-size: 15px;
   line-height: 30px;
-  color: #7D7987;
+  color: #7d7987;
   margin-left: 0;
 }
 
@@ -270,8 +270,8 @@ select {
   padding-top: 1px;
   font-family: Inter;
   font-weight: 600;
-  font-size: 16px;
-  color: #FB8F1D;
+  font-size: 15px;
+  color: #fb8f1d;
 }
 
 .mini-gallery {
@@ -286,4 +286,45 @@ select {
 
 .mini-gallery img:nth-of-type(1) {
   margin-left: 0;
+}
+
+/* 
+==========================
+        Page 4
+==========================
+*/
+
+.page-4 {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 150px;
+}
+
+.page-4 h1 {
+  font-family: Playfair Display;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 50px;
+  color: #000000;
+}
+
+.page-4-left p {
+  width: 60%;
+  font-family: Muli;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 30px;
+  color: #7d7987;
+}
+
+.page-4-left h1 {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 50px;
+  color: #000000;
 }
